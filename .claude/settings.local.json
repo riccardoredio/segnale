@@ -15,7 +15,10 @@
       "Bash(export PATH=\"/usr/local/bin:$PATH\")",
       "Bash(npm install:*)",
       "Bash(npx eleventy:*)",
-      "mcp__Claude_Preview__preview_start"
+      "mcp__Claude_Preview__preview_start",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)"
     ]
   }
 }

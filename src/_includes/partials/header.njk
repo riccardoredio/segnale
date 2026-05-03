@@ -1,8 +1,8 @@
 <header class="site-header">
   <div class="site-header__inner">
-    <a href="/" class="site-title">{{ site.title }}</a>
+    <a href="{{ "/" | url }}" class="site-title">{{ site.title }}</a>
     <nav class="site-nav">
-      <a href="/categorie/">Categorie</a>
+      <a href="{{ "/categorie/" | url }}">Categorie</a>
       <button class="theme-toggle" aria-label="Cambia tema" type="button">
         <span class="theme-toggle__icon"></span>
       </button>
