@@ -18,7 +18,8 @@
       "mcp__Claude_Preview__preview_start",
       "Bash(git add *)",
       "Bash(git commit *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(ELEVENTY_PATH_PREFIX=/segnale/ npx eleventy)"
     ]
   }
 }
