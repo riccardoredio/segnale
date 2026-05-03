@@ -1,7 +1,11 @@
 ---
-title: "Sul piacere della lettura lenta"
+title: "Articolo di prova non originale"
 date: 2026-04-01
 category: "Riflessioni"
+---
+
+*Questo è un articolo di prova generato automaticamente. Non rappresenta contenuto originale dell'autore.*
+
 ---
 
 Il tempo dedicato alla lettura non si misura in pagine, ma in profondita di pensiero. Ogni frase merita di essere assaporata, ogni parola pesata con cura.
@@ -15,9 +19,3 @@ Viviamo in un'epoca in cui la velocita viene scambiata per efficienza. Scorriamo
 ## Ritrovare il ritmo
 
 Leggere lentamente significa concedersi il lusso di rileggere una frase perche era bella, non perche non la si era capita. Significa fermarsi a meta pagina per guardare fuori dalla finestra e lasciare che le parole si depositino.
-
-La lettura lenta non e un metodo. E un atteggiamento verso il tempo: la decisione consapevole di non avere fretta, almeno per il tempo di un capitolo.
-
-## Un esercizio quotidiano
-
-Provate domani: aprite un libro, leggete una sola pagina, e chiudetelo. Non perche non avete tempo, ma perche quella pagina meritava tutta la vostra attenzione.
