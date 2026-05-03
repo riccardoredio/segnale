@@ -4,7 +4,7 @@ title: Home
 ---
 <section class="category-cards category-cards--home">
   {%- for name, posts in collections.categories -%}
-  <a href="/categorie/#{{ name | lower }}" class="category-card category-card--{{ name | lower }}">
+  <a href="{{ ("/categorie/#" + name) | lower | url }}" class="category-card category-card--{{ name | lower }}">
     <div class="category-card__top">
       <span class="category-card__count">{{ posts.length }} articol{{ "o" if posts.length === 1 else "i" }}</span>
       {%- if posts | hasRecentPost(7) -%}
