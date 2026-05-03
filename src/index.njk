@@ -1,0 +1,23 @@
+---
+layout: layouts/base.njk
+title: Home
+---
+<section class="category-cards category-cards--home">
+  {%- for name, posts in collections.categories -%}
+  <a href="/categorie/#{{ name | lower }}" class="category-card category-card--{{ name | lower }}">
+    <div class="category-card__top">
+      <span class="category-card__count">{{ posts.length }} articol{{ "o" if posts.length === 1 else "i" }}</span>
+      {%- if posts | hasRecentPost(7) -%}
+      <span class="category-card__signal" aria-label="Nuovo segnale">
+        <span class="category-card__signal-dot"></span>
+        <span class="category-card__signal-wave category-card__signal-wave--1"></span>
+        <span class="category-card__signal-wave category-card__signal-wave--2"></span>
+        <span class="category-card__signal-wave category-card__signal-wave--3"></span>
+      </span>
+      {%- endif -%}
+    </div>
+    <h2 class="category-card__name">{{ name }}</h2>
+    <p class="category-card__latest">Ultimo: {{ posts[0].data.title }}</p>
+  </a>
+  {%- endfor -%}
+</section>

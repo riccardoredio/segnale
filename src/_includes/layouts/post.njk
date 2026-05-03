@@ -1,0 +1,16 @@
+---
+layout: layouts/base.njk
+---
+<article class="post" data-category="{{ category }}">
+  <header class="post__header">
+    <span class="post__category post__category--{{ category | lower }}">{{ category }}</span>
+    <h1 class="post__title">{{ title }}</h1>
+    <time class="post__date" datetime="{{ date | isoDate }}">{{ date | readableDate }}</time>
+  </header>
+  <div class="post__body">
+    {{ content | safe }}
+  </div>
+  <footer class="post__footer">
+    <a href="/" class="post__back">&larr; Tutti gli articoli</a>
+  </footer>
+</article>

@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm init:*)",
+      "Bash(export PATH=\"/usr/local/bin:/opt/homebrew/bin:$PATH\")",
+      "Read(//usr/local/bin/**)",
+      "Bash(command -v fnm)",
+      "Read(//Users/riccardoredio/.fnm/**)",
+      "Read(//usr/local/lib/node_modules/**)",
+      "Bash(mdfind \"kMDItemFSName == ''''npm''''\")",
+      "Bash(npm --version)",
+      "Bash(source ~/.zshrc)",
+      "Bash(source ~/.zprofile)",
+      "Bash(source ~/.bash_profile)",
+      "Bash(export PATH=\"/usr/local/bin:$PATH\")",
+      "Bash(npm install:*)",
+      "Bash(npx eleventy:*)",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}
